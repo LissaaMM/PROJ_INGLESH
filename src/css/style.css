@@ -33,6 +33,9 @@ nav {
     color: var(--white);
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
 main {
     padding: 20px;
 }

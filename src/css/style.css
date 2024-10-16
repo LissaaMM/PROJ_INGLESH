@@ -7,8 +7,8 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: darkblue;
-    color: white;
+    background-color: var(--white);
+    color: var(--bluei);
     margin: 0;
     padding: 0;
 }

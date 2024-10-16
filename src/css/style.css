@@ -10,6 +10,22 @@ header {
     padding: 20px;
     text-align: center;
 }
+nav {
+    margin-top: 10px;
+}
+.breadcrumb {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.breadcrumb li {
+    margin: 0 5px;
+}
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
 main {
     padding: 20px;
 }

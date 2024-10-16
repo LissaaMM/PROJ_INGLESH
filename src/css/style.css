@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: var(--white);
-    color: var(--bluei);
+    color: var(--white);
     margin: 0;
     padding: 0;
 }
@@ -38,14 +38,23 @@ main {
 }
 .content-section, .game-section {
     margin-bottom: 20px;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: white;
+    color: black;
     padding: 10px;
     border-radius: 8px;
 }
-.game {
-    background-color: var(--white);
+.game, .quiz {
+    background-color: #add8e6;
     padding: 10px;
     margin-top: 10px;
     border-radius: 8px;
+}
+.quiz button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #add8e6;
+    color: black;
 }

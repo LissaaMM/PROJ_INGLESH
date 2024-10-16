@@ -1,3 +1,10 @@
+:root{
+    --blue-baby:#43bedd;
+    --bluei: #60cee6;
+    --black: #0000;
+    --aliceblue: var(--aliceblue);
+    --white: var(--white);
+}
 body {
     font-family: Arial, sans-serif;
     background-color: darkblue;
@@ -6,7 +13,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #add8e6;
+    background-color: var(--blue-baby);
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +30,7 @@ nav {
     margin: 0 5px;
 }
 .breadcrumb a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 main {
@@ -31,13 +38,13 @@ main {
 }
 .content-section, .game-section {
     margin-bottom: 20px;
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
     padding: 10px;
     border-radius: 8px;
 }
 .game {
-    background-color: #add8e6;
+    background-color: var(--white);
     padding: 10px;
     margin-top: 10px;
     border-radius: 8px;

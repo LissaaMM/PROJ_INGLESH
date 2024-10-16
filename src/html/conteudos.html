@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizzes - Aprenda Inglês Fácil</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -19,16 +19,15 @@
     </header>
     <main>
         <section class="game-section">
-            <h2>Quiz de Vocabulário</h2>
+            <h2>Quiz de Cores</h2>
             <div class="quiz">
-                <p>Qual é a tradução de "apple"?</p>
-                <button onclick="checkAnswer(this, 'correct')">Maçã</button>
-                <button onclick="checkAnswer(this, 'wrong')">Pera</button>
-                <button onclick="checkAnswer(this, 'wrong')">Banana</button>
-                <button onclick="checkAnswer(this, 'wrong')">Laranja</button>
+                <p>Qual dessas cores é "branco" em inglês?</p>
+                <button class="color-button" data-answer="correct"><img src="images/branco.png" alt="Branco"></button>
+                <button class="color-button" data-answer="wrong"><img src="images/vermelho.png" alt="Vermelho"></button>
+                <button class="color-button" data-answer="wrong"><img src="images/azul.png" alt="Azul"></button>
+                <button class="color-button" data-answer="wrong"><img src="images/amarelo.png" alt="Amarelo"></button>
             </div>
         </section>
     </main>
     <script src="js/script.js"></script>
 </body>
-</html>

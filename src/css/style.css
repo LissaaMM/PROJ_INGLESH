@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #add8e6;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+.content-section, .game-section {
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+.game {
+    background-color: #add8e6;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}

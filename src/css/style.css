@@ -15,7 +15,7 @@ body {
 header {
     background-color: var(--blue-baby);
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 nav {
     margin-top: 10px;

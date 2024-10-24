@@ -54,7 +54,7 @@ body{
 
 .navigation_header a{
     text-decoration: none;
-    color: var(--color-purple);
+    color: var(#9fdef5);
     transition: 1s;
     font-weight: bold;
 }
@@ -64,7 +64,7 @@ body{
 }
 
 .active{
-    background: var(--color-dark3);
+    background: var(#aaffff);
     padding: 10px;
     border-radius: 10px;
 }
@@ -72,7 +72,7 @@ body{
 .btn_icon_header{
     background: transparent;
     border: none;
-    color: var(--color-white);
+    color: var(#dff4fc);
     cursor: pointer;
     display: none;
 }
@@ -82,7 +82,7 @@ body{
         position: absolute;
         flex-direction: column !important;
         top: 0;
-        background: var(--color-dark5);
+        background: var(#7fd3f2);
         height: 100%;
         width: 35vw;
         padding: 1em;

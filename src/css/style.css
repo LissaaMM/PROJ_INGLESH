@@ -1,7 +1,7 @@
 
 :root{
     --color-white: #fff;
-    --color-dark1: #7fd3f2;
+    --color-blue1: #7fd3f2;
     --color-dark2: #2d2d2d;
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
@@ -33,7 +33,7 @@ body{
 }
 
 .header{
-    background-color: var(--color-dark2);
+    background-color: var(--color-blue1);
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;

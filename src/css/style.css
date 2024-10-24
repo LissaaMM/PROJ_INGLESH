@@ -18,11 +18,20 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+header, 
+.navegation_header {
     background-color: var(--blue-baby);
-    padding: 20px;
-    text-align: left;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+.header{
+    background-color:tu coloca umacor aqui, essa vai ficar la no topo ;
+    box-shadow: 1px 1px 4px var(coloca uma cor aqui);
+    height: 3.5em;
+    justify-content: space-between;
+}   
 nav {
     margin-top: 10px;
 }

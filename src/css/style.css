@@ -13,7 +13,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: se vira kkk;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
@@ -34,7 +34,7 @@ body{
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
-    box-shadow: 1px 1px 4px var(--color-dark4);
+    box-shadow: 1px 1px 4px var(--color-blue);
 }
 
 .navigation_header{

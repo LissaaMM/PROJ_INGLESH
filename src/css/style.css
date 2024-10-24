@@ -1,12 +1,6 @@
 
 :root{
-    --color-white: #fff;
-    --color-blue1: #7fd3f2;
-    --color-dark2: #2d2d2d;
-    --color-dark3: #414141;
-    --color-dark4: #1c1c1c;
-    --color-dark5: #bfe9f9;
-    --color-purple: #b040ff;
+    --color-blue:#246EB9;
 }
 
 *{
@@ -17,7 +11,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color-dark1);
+    background-color: var(--color-blue);
     color: var(--color-white);
 }
 

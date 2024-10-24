@@ -31,7 +31,22 @@ header,
     box-shadow: 1px 1px 4px var(coloca uma cor aqui);
     height: 3.5em;
     justify-content: space-between;
+    padding: 0 10%;
 }   
+.navegation_header{
+    gap: 3em;
+}
+
+.navegation_header{
+    text-decoration: none;
+    color:var(cor pras letras nos botoes de cima);
+    transition: 1s;
+}
+.active{
+    background-color: var(corzinha);
+    padding: 10px;
+    border-radius: 10px;
+}
 nav {
     margin-top: 10px;
 }

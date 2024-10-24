@@ -33,11 +33,11 @@ body{
 }
 
 .header{
-    background-color: var(--color-dark2);
+    background-color: var(#42bffa);
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
-    box-shadow: 1px 1px 4px var(--color-dark4);
+    box-shadow: 1px 1px 4px var(#87eafd);
 }
 
 .navigation_header{

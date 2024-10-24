@@ -15,10 +15,6 @@ body{
     color: var(--color-white);
 }
 
-.img_logo_header{
-    width: 45px;
-}
-
 .header,
 .navigation_header{
     display: flex;

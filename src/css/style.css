@@ -93,27 +93,3 @@ body{
     from {margin-left: -100vw;}
     to {margin-left: -10vw}
 }
-.card { 
-    display: flex; 
-    border: 1px solid #ccc;
-    border-radius: 10px; 
-    overflow: hidden; 
-    max-width: 600px; 
-    margin: 20px auto; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-} 
-.card img {
-     width: 40%;
-      object-fit: cover;
-     } 
-.card-content {
-     padding: 20px;
-      flex: 1; 
-} 
-.card-title { 
-    font-size: 1.5em;
-     margin-bottom: 10px; 
-    } 
-.card-text { 
-    font-size: 1em; color: #555; 
-} 

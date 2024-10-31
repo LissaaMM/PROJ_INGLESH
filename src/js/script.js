@@ -1,1 +1,3 @@
-function redirectPage(value) { window.location.href = './src/html/' + value.toLowerCase() + '.html'; }
+function redirectPage(value) { 
+    window.location.href = './src/html/' + value.toLowerCase() + '.html'; 
+}

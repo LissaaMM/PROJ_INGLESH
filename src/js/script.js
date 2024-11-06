@@ -35,13 +35,13 @@ let wrongAnswers = 0;
 const buttonns = document.querySelectorAll('.color-button');
 
 // Adicionando o evento de clique para cada botão
-buttons.forEach(button => {
+buttonns.forEach(button => {
     button.addEventListener('click', (e) => {
         const answer = e.target.dataset.answer;
         
         // Verifica se a resposta está correta ou errada
         if (answer === 'correct') {
-            score++;
+            scorei++;
             e.target.style.backgroundColor = 'green';  // Resposta correta (verde)
         } else {
             wrongAnswers++;
@@ -56,11 +56,11 @@ buttons.forEach(button => {
 // Função para reiniciar o quiz
 function resetQuiz() {
     // Reinicia as variáveis de pontuação
-    score = 0;
+    scorei = 0;
     wrongAnswers = 0;
 
     // Reseta as cores dos botões
-    buttons.forEach(button => {
+    buttonns.forEach(button => {
         button.style.backgroundColor = '#3498db';  // Cor inicial dos botões
     });
 

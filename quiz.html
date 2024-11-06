@@ -3,39 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz - Aprenda Inglês Fácil</title>
-    <link rel="stylesheet" href="./src/css/styles.past.css">
+    <title>Quizzes - Aprenda Inglês Fácil</title>
+    <link rel="stylesheet" href="../src/css/style.css">
 </head>
 <body>
-    <div class="header" id="header">
-        <button onclick="toggleSidebar()" class="btn_icon_header">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-        </button>
-        <h1>Easy English</h1> 
-        <div class="navigation_header" id="navigation_header">
-            <button onclick="toggleSidebar()" class="btn_icon_header">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-            </button>
-            <a href="./index.html">Home</a>
-            <a href="./src/html/gramatica.html">Gramática</a>
-            <a href="./src/html/quiz.html" class="active">Quiz</a>
-        </div>
-    </div>
-
-    <div class="content">
-        <h1>Quiz de Cores</h1>
+    <header>
+        <h1>Quizzes</h1>
+        <nav>
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../src/html/gramatica.html">Gramática</a></li>
+                <li><a href="./quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
         <section class="game-section">
-            <h2>Qual dessas cores é "branco" em inglês?</h2>
+            <h2>Quiz de Inglês</h2>
+            
+            <!-- Pergunta 1 -->
             <div class="quiz">
-                <button class="color-button" data-answer="correct">
-                    <img src="./src/img/white.jpg" alt="White">
-                </button>
-                <button class="color-button" data-answer="wrong">
-                    <img src="./src/img/blue.jpg" alt="Blue">
-                </button>
-                <button class="color-button" data-answer="wrong">
-                    <img src="./src/img
+                <p>1. Qual é a tradução de "dog"?</p>
+                <button class="color-button" data-answer="wrong">Gato</button>
+                <button class="color-button" data-answer="correct">Cachorro</button>
+                <button class="color-button" data-answer="wrong">Pato</button>
+                <button class="color-button" data-answer="wrong">Cavalo</button>
+            </div>
+            
+            <!-- Pergunta 2 -->
+            <div class="quiz">
+                <p>2. Como se diz "boa noite" em inglês?</p>
+                <button class="color-button" data-answer="wrong">Good morning</button>
+                <button class="color-button" data-answer="wrong">Good afternoon</button>
+                <button class="color-button" data-answer="correct">Good night</button>
+                <button class="color-button" data-answer="wrong">Hello</button>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="quiz">
+                <p>3. Qual é a tradução de "apple"?</p>
+                <button class="color-button" data-answer="wrong">Banana</button>
+                <button class="color-button" data-answer="correct">Maçã</button>
+                <button class="color-button" data-answer="wrong">Laranja</button>
+                <button class="color-button" data-answer="wrong">Uva</button>
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="quiz">
+                <p>4. Como se diz "obrigado" em inglês?</p>
+                <button class="color-button" data-answer="wrong">Please</button>
+                <button class="color-button" data-answer="correct">Thank you</button>
+                <button class="color-button" data-answer="wrong">Sorry</button>
+                <button class="color-button" data-answer="wrong">Excuse me</button>
+            </div>
+
+            <!-- Resultado -->
+            <div id="result">
+                <p id="score">Acertos: 0 | Erros: 0</p>
+                <button onclick="resetQuiz()">Reiniciar Quiz</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

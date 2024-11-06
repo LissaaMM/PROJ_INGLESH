@@ -197,3 +197,84 @@ iframe {
         margin-left: -100vw;
     }
 }
+
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+/* Quiz */
+.game-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quiz {
+    margin: 20px 0;
+}
+
+.quiz p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.color-button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.color-button:hover {
+    background-color: #2980b9;
+}
+
+.color-button:active {
+    background-color: #1c5980;
+}
+
+/* Resultado */
+#result {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}

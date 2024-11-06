@@ -28,3 +28,43 @@ buttons.forEach(button => {
         document.getElementById('score').innerText = 'Acertos: ' + score;
     });
 });
+
+let scorei = 0;
+let wrongAnswers = 0;
+
+const buttonns = document.querySelectorAll('.color-button');
+
+// Adicionando o evento de clique para cada botão
+buttons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        const answer = e.target.dataset.answer;
+        
+        // Verifica se a resposta está correta ou errada
+        if (answer === 'correct') {
+            score++;
+            e.target.style.backgroundColor = 'green';  // Resposta correta (verde)
+        } else {
+            wrongAnswers++;
+            e.target.style.backgroundColor = 'red';  // Resposta errada (vermelho)
+        }
+
+        // Atualiza o texto de acertos e erros
+        document.getElementById('score').innerText = `Acertos: ${score} | Erros: ${wrongAnswers}`;
+    });
+});
+
+// Função para reiniciar o quiz
+function resetQuiz() {
+    // Reinicia as variáveis de pontuação
+    score = 0;
+    wrongAnswers = 0;
+
+    // Reseta as cores dos botões
+    buttons.forEach(button => {
+        button.style.backgroundColor = '#3498db';  // Cor inicial dos botões
+    });
+
+    // Reseta o texto de acertos e erros
+    document.getElementById('score').innerText = `Acertos: ${score} | Erros: ${wrongAnswers}`;
+}
+

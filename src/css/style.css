@@ -79,7 +79,7 @@ body {
 }
 
 .navigation_header a:hover {
-    color: var(--color-white);
+    color: var(--color-blue1);
 }
 
 .active {

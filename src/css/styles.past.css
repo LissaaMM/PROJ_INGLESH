@@ -78,7 +78,7 @@ body {
 }
 
 .navigation_header a:hover {
-    color: var(--color-blue1);
+    color: var(--color-white);
 }
 
 .active {
@@ -90,7 +90,7 @@ body {
 .btn_icon_header {
     background: transparent;
     border: none;
-    color: var(--color-white);
+    color: var(--color-blue1);
     cursor: pointer;
     display: none;
 }

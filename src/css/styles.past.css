@@ -124,3 +124,8 @@ body {
 h1, p, h2{
     color: var(--color-blue1);
 }
+.content{
+    padding: 2px;
+    align-items: center;
+    display: flex;
+}

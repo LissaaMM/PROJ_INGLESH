@@ -121,3 +121,6 @@ body {
         margin-left: 0;
     }
 }
+h1, p, h2{
+    color: var(--color-blue1);
+}

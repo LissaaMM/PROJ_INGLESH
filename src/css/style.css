@@ -32,7 +32,7 @@ body {
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
-    box-shadow: 1px 1px 4px var(--color-blue);
+    box-shadow: 1px 1px 4px var(--color-blue1);
 }
 
 .navigation_header {
@@ -91,7 +91,7 @@ body {
 .btn_icon_header {
     background: transparent;
     border: none;
-    color: var(--color-white);
+    color: var(--color-blue1);
     cursor: pointer;
     display: none;
 }

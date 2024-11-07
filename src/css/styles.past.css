@@ -126,6 +126,4 @@ h1, p, h2{
 }
 .content{
     padding: 2px;
-    align-items: center;
-    display: flex;
 }

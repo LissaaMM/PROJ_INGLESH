@@ -17,6 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-blue);
     pad: 5px;
+    color: white;
 }
 
 .header,

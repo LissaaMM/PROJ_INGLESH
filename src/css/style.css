@@ -26,8 +26,11 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
+.titulo-site{
+    color: #fff;
+}
 .header {
+    background-color: #194569;
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;

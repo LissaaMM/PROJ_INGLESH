@@ -28,7 +28,6 @@ body {
 }
 
 .header {
-    background-color: var(--color-blue1);
     justify-content: space-between;
     padding: 0 10%;
     height: 3.5em;
